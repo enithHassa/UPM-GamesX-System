@@ -14,8 +14,8 @@ This project combines robust Java-based backend functionality with an intuitive 
 -Easy navigation to explore available games and platform features.
 2. User Profile Management
 -Secure and customizable user account management.
--Features include updating user details and viewing purchase history.
-3. Game Purchase Functionality
+-CRUD operations (Create, Read, Update, Delete) for user profiles.
+4. Game Purchase Functionality
 -Browse and purchase games with ease.
 -Backend logic ensures secure and efficient transaction handling.
 
