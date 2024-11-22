@@ -1,0 +1,173 @@
+
+.background{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+input[type=text], 
+input[type=password],
+input[type=tel],
+input[type=email],
+input[type=date]
+{    
+    border: none;
+    padding: 5px 10px;     
+    border-bottom: 1px black;
+    background: whitesmoke;
+    outline: none;
+    border-radius: 5px;
+}
+
+p{
+	text-align:center;
+}
+
+.head1{
+    font-weight: bold;
+    font-size:30px;
+}
+
+.form{
+    margin: auto;
+    background-color:#ffffff;
+    border: 2px solid black;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column; 
+    align-items:normal; 
+}
+
+
+#regform{
+	margin: 15px;
+    width :fit-content;
+    height: fit-content;
+    align-content: center;
+	
+}
+
+ 
+.Container{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    text-align: center; 
+
+}
+
+label {
+    font-size: size 12px; ;
+}
+
+.check{
+    font-weight: bold;
+
+}
+
+#name{
+    display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 90%;
+}
+	
+
+#birthday{
+    display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 45%;
+}
+
+
+
+#email{
+    display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 40%;
+}
+
+
+#telnum{
+    display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 40%;
+}
+
+#address{
+	display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 90%;
+}
+
+#password1{
+    display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 40%;
+}
+
+
+#password2{
+    display: inline-block;
+    padding:10px 10px;
+    margin:15px 0px;
+    width: 40%;
+}
+
+#showPasswords {
+    display: block;
+    margin: -10px 10px 0 30px;
+    text-align: left; /* Align content to the left */
+}
+
+
+#submit{
+    display: inline-block;
+    padding:10px 10px;    
+    cursor:pointer;
+    background-color:whitesmoke;
+    color:black;
+    width:100px;
+    margin:auto;
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit:hover{
+	background-color:aliceblue;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #ffffff;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/bgpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    } 
+
+#nav {
+    padding : 20px;
+}
+

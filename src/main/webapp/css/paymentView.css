@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #333; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+}
+
+
+
+
+input[name="delete"] {
+    background-color: red;
+    border-color: red; 
+}
+
+input[name="delete"]:hover {
+    background-color: darkred; 
+}
